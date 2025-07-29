@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Video files (don't commit large videos to git)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+!/tests/fixtures/small_test.mp4
+
+# Audio files  
+*.wav
+*.mp3
+*.aac
+*.flac
+*.m4a
+!/tests/fixtures/test_audio.wav
+
+# Image sequences and photos
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+!/tests/fixtures/test_image.jpg
+
+# AI model files (can be large)
+*.pth
+*.pkl
+*.h5
+*.onnx
+
+# IDE and editors
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Project output
+output/
+renders/
+exports/
